@@ -151,6 +151,7 @@ ul.plain li { padding: 7px 0; }
 li strong { font-weight: 600; }
 .edu li { display: flex; justify-content: space-between; gap: 16px; flex-wrap: wrap; }
 .edu span { color: var(--muted); font-size: 15px; }
+.edu .role { flex-basis: 100%; margin-top: -2px; }
 .soon {
   margin-top: 40px;
   padding: 18px 20px;

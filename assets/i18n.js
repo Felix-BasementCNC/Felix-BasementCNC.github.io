@@ -58,7 +58,8 @@
     "cv.p1": "Jul &amp; Aug 2024 · Wiener Neustadt",
     "cv.p2": "Jul &amp; Aug 2023 · Enzesfeld",
     "cv.p3": "Aug 2022 · Wiener Neudorf",
-    "cv.p4": "Jul 2022 · Brunn am Gebirge"
+    "cv.p4": "Jul 2022 · Brunn am Gebirge",
+    "cv.x1r": "HTL graduate · Technician, mechanical engineering / mechatronics"
   },
   "de": {
     "title.home": "Felix Winkler – Projekte & Eigenbauten",
@@ -117,7 +118,8 @@
     "cv.p1": "Juli &amp; August 2024 · Wiener Neustadt",
     "cv.p2": "Juli &amp; August 2023 · Enzesfeld",
     "cv.p3": "August 2022 · Wiener Neudorf",
-    "cv.p4": "Juli 2022 · Brunn am Gebirge"
+    "cv.p4": "Juli 2022 · Brunn am Gebirge",
+    "cv.x1r": "HTL-Absolvent · Techniker Maschinenbau / Mechatronik"
   }
 };
 
