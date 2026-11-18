@@ -22,7 +22,7 @@
     "nav.projects": "Projects",
     "nav.cv": "CV",
     "nav.contact": "Contact",
-    "cv.edu1": "Since Sep 2026 · 3rd semester",
+    "cv.edu1": "Since Sep 2026",
     "cv.edu2": "Higher Technical College, Mechatronics · graduated",
     "cv.label": "Curriculum vitae",
     "cv.h1": "CV",
@@ -61,7 +61,7 @@
     "cv.p4": "Jul 2022 · Brunn am Gebirge",
     "cv.x1r": "HTL graduate · Technician, mechanical engineering / mechatronics",
     "cv.x1n": "Until the start of my studies at FH Technikum Wien in September 2026",
-    "cv.edu1d": "Bachelor's in Mechanical Engineering"
+    "cv.edu1d": "Bachelor's in Mechanical Engineering · direct entry into the 3rd semester"
   },
   "de": {
     "title.home": "Felix Winkler – Projekte & Eigenbauten",
@@ -84,7 +84,7 @@
     "nav.projects": "Projekte",
     "nav.cv": "Lebenslauf",
     "nav.contact": "Kontakt",
-    "cv.edu1": "Seit September 2026 · 3. Semester",
+    "cv.edu1": "Seit September 2026",
     "cv.edu2": "Höhere Technische Lehranstalt, Abteilung Mechatronik · abgeschlossen",
     "cv.label": "Werdegang",
     "cv.h1": "Lebenslauf",
@@ -123,7 +123,7 @@
     "cv.p4": "Juli 2022 · Brunn am Gebirge",
     "cv.x1r": "HTL-Absolvent · Techniker Maschinenbau / Mechatronik",
     "cv.x1n": "Bis zum Studienbeginn an der FH Technikum Wien im September 2026",
-    "cv.edu1d": "Bachelorstudium Maschinenbau"
+    "cv.edu1d": "Bachelorstudium Maschinenbau · Quereinstieg ins 3. Semester"
   }
 };
 
