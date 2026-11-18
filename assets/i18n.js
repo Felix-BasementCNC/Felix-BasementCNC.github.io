@@ -96,15 +96,15 @@
     "pr.tagline": "Maschinen, Roboter und Elektronik, die ich selbst entwickelt und gebaut habe.",
     "co.label": "Kontakt aufnehmen",
     "co.h1": "Kontakt",
-    "co.tagline": "Am besten erreichst du mich über einen der folgenden Kanäle.",
-    "co.h.online": "Online",
-    "co.h.msg": "Nachricht schreiben",
+    "co.tagline": "Am besten erreichen Sie mich über einen der folgenden Kanäle.",
+    "co.h.online": "Zu erreichen unter",
+    "co.h.msg": "Nachricht senden",
     "co.f.name": "Name",
-    "co.f.mail": "Deine E-Mail-Adresse (für die Antwort)",
-    "co.f.msg": "Deine Nachricht",
+    "co.f.mail": "Ihre E-Mail-Adresse (für die Antwort)",
+    "co.f.msg": "Ihre Nachricht",
     "co.f.send": "Absenden",
-    "co.ok": "Danke, deine Nachricht ist angekommen.",
-    "co.err": "Das hat leider nicht geklappt. Bitte versuche es später noch einmal.",
+    "co.ok": "Vielen Dank, Ihre Nachricht wurde übermittelt.",
+    "co.err": "Leider ist ein Fehler aufgetreten. Bitte versuchen Sie es später erneut.",
     "co.sending": "Wird gesendet …"
   }
 };
