@@ -24,7 +24,6 @@
     "nav.contact": "Contact",
     "cv.edu1": "Bachelor's in Mechanical Engineering · 3rd semester (current)",
     "cv.edu2": "Higher Technical College, Mechatronics · graduated",
-    "cv.soon": "<b>// Experience</b> — internships and work experience will be added here.",
     "cv.label": "Curriculum vitae",
     "cv.h1": "CV",
     "cv.tagline": "Mechanical engineering student with a hands-on background in mechatronics, machining and electronics.",
@@ -52,7 +51,14 @@
     "co.f.send": "Send",
     "co.ok": "Thanks, your message was sent.",
     "co.err": "Something went wrong. Please try again later.",
-    "co.sending": "Sending…"
+    "co.sending": "Sending…",
+    "cv.h.exp": "Professional experience",
+    "cv.h.intern": "Internships",
+    "cv.x1": "Feb – Aug 2026 · Vienna",
+    "cv.p1": "Jul &amp; Aug 2024 · Wiener Neustadt",
+    "cv.p2": "Jul &amp; Aug 2023 · Enzesfeld",
+    "cv.p3": "Aug 2022 · Wiener Neudorf",
+    "cv.p4": "Jul 2022 · Brunn am Gebirge"
   },
   "de": {
     "title.home": "Felix Winkler – Projekte & Eigenbauten",
@@ -77,7 +83,6 @@
     "nav.contact": "Kontakt",
     "cv.edu1": "Bachelorstudium Maschinenbau · aktuell im 3. Semester",
     "cv.edu2": "Höhere Technische Lehranstalt, Abteilung Mechatronik · abgeschlossen",
-    "cv.soon": "<b>// Berufserfahrung</b> — Praktika und weitere Stationen folgen in Kürze.",
     "cv.label": "Werdegang",
     "cv.h1": "Lebenslauf",
     "cv.tagline": "Maschinenbaustudent mit praktischer Erfahrung in Mechatronik, Zerspanung und Elektronik.",
@@ -105,7 +110,14 @@
     "co.f.send": "Absenden",
     "co.ok": "Vielen Dank, Ihre Nachricht wurde übermittelt.",
     "co.err": "Leider ist ein Fehler aufgetreten. Bitte versuchen Sie es später erneut.",
-    "co.sending": "Wird gesendet …"
+    "co.sending": "Wird gesendet …",
+    "cv.h.exp": "Berufserfahrung",
+    "cv.h.intern": "Praktika",
+    "cv.x1": "Februar – August 2026 · Wien",
+    "cv.p1": "Juli &amp; August 2024 · Wiener Neustadt",
+    "cv.p2": "Juli &amp; August 2023 · Enzesfeld",
+    "cv.p3": "August 2022 · Wiener Neudorf",
+    "cv.p4": "Juli 2022 · Brunn am Gebirge"
   }
 };
 
