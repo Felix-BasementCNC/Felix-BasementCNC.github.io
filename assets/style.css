@@ -63,61 +63,25 @@ a { color: var(--accent); text-underline-offset: 3px; }
   color: var(--muted);
 }
 
-/* ---------- dropdown ---------- */
-.menu { position: relative; }
-.menu-btn {
-  font: inherit;
-  font-family: "IBM Plex Mono", monospace;
-  font-size: 13px;
-  letter-spacing: .08em;
-  text-transform: uppercase;
-  color: var(--fg);
-  background: var(--bg);
-  border: 1px solid var(--line);
-  padding: 8px 14px;
-  cursor: pointer;
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
-}
-.menu-btn:hover, .menu-btn:focus-visible { border-color: var(--accent); outline: none; }
-.menu-btn .chev {
-  width: 7px; height: 7px;
-  border-right: 1.5px solid currentColor;
-  border-bottom: 1.5px solid currentColor;
-  transform: rotate(45deg) translateY(-2px);
-  transition: transform .15s;
-}
-.menu-btn[aria-expanded="true"] .chev { transform: rotate(-135deg) translateY(-2px); }
-.menu-list {
-  position: absolute;
-  right: 0;
-  top: calc(100% + 6px);
-  min-width: 180px;
-  margin: 0;
-  padding: 4px 0;
-  list-style: none;
-  background: var(--bg);
-  border: 1px solid var(--line);
-  box-shadow: 0 8px 24px rgba(0, 0, 0, .12);
-}
-.menu-list[hidden] { display: none; }
-.menu-list li { padding: 0; }
-.menu-list a {
+/* ---------- top navigation ---------- */
+.topnav ul { display: flex; gap: 22px; margin: 0; padding: 0; list-style: none; }
+.topnav a {
   display: block;
-  padding: 10px 16px;
-  color: var(--fg);
+  padding: 6px 0;
+  color: var(--muted);
   text-decoration: none;
   font-family: "IBM Plex Mono", monospace;
   font-size: 13px;
   letter-spacing: .08em;
   text-transform: uppercase;
+  border-bottom: 1px solid transparent;
 }
-.menu-list a:hover, .menu-list a:focus-visible { background: var(--line); outline: none; }
-.menu-list a[aria-current="page"] { color: var(--accent); }
-/* without JS: show links inline instead of a dropdown */
-.no-js .menu-btn { display: none; }
-.no-js .menu-list { position: static; display: flex; border: 0; box-shadow: none; padding: 0; }
+.topnav a:hover, .topnav a:focus-visible { color: var(--fg); outline: none; }
+.topnav a[aria-current="page"] { color: var(--fg); border-bottom-color: var(--fg); }
+@media (max-width: 520px) {
+  .site-header .bar { flex-wrap: wrap; }
+  .topnav ul { gap: 16px; }
+}
 
 /* ---------- content ---------- */
 main {

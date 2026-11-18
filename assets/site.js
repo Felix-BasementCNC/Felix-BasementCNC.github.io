@@ -17,27 +17,6 @@ window.SITE = {
 (function () {
   document.documentElement.classList.remove("no-js");
 
-  /* ---- dropdown menu ---- */
-  var btn = document.getElementById("menu-btn");
-  var list = document.getElementById("menu-list");
-  if (btn && list) {
-    var setOpen = function (open) {
-      btn.setAttribute("aria-expanded", open ? "true" : "false");
-      list.hidden = !open;
-    };
-    setOpen(false);
-    btn.addEventListener("click", function (e) {
-      e.stopPropagation();
-      setOpen(list.hidden);
-    });
-    document.addEventListener("click", function (e) {
-      if (!list.contains(e.target)) setOpen(false);
-    });
-    document.addEventListener("keydown", function (e) {
-      if (e.key === "Escape") { setOpen(false); btn.focus(); }
-    });
-  }
-
   /* ---- contact page: links + form ---- */
   var linkBox = document.getElementById("social-links");
   if (linkBox) {
