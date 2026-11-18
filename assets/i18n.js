@@ -61,7 +61,13 @@
     "cv.p4": "Jul 2022 · Brunn am Gebirge",
     "cv.x1r": "HTL graduate · Technician, mechanical engineering / mechatronics",
     "cv.x1n": "Until the start of my studies at FH Technikum Wien in September 2026",
-    "cv.edu1d": "Bachelor's in Mechanical Engineering · direct entry into the 3rd semester"
+    "cv.edu1d": "Bachelor's in Mechanical Engineering · direct entry into the 3rd semester",
+    "nav.side": "Side Projects",
+    "title.side": "Side Projects – Felix Winkler",
+    "sp.label": "Workshop log",
+    "sp.h1": "Side Projects",
+    "sp.tagline": "Short notes on smaller jobs in the workshop: modifications, repairs and one-off tools.",
+    "sp.soon": "<b>// Side projects</b> — first entries coming soon."
   },
   "de": {
     "title.home": "Felix Winkler – Projekte & Eigenbauten",
@@ -123,7 +129,13 @@
     "cv.p4": "Juli 2022 · Brunn am Gebirge",
     "cv.x1r": "HTL-Absolvent · Techniker Maschinenbau / Mechatronik",
     "cv.x1n": "Bis zum Studienbeginn an der FH Technikum Wien im September 2026",
-    "cv.edu1d": "Bachelorstudium Maschinenbau · Quereinstieg ins 3. Semester"
+    "cv.edu1d": "Bachelorstudium Maschinenbau · Quereinstieg ins 3. Semester",
+    "nav.side": "Nebenprojekte",
+    "title.side": "Nebenprojekte – Felix Winkler",
+    "sp.label": "Werkstatt-Doku",
+    "sp.h1": "Nebenprojekte",
+    "sp.tagline": "Kurze Dokumentationen kleinerer Arbeiten in der Werkstatt: Umbauten, Reparaturen und Einzelanfertigungen.",
+    "sp.soon": "<b>// Nebenprojekte</b> — die ersten Einträge folgen in Kürze."
   }
 };
 

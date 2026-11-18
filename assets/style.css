@@ -64,7 +64,7 @@ a { color: var(--accent); text-underline-offset: 3px; }
 }
 
 /* ---------- top navigation ---------- */
-.topnav ul { display: flex; gap: 22px; margin: 0; padding: 0; list-style: none; }
+.topnav ul { display: flex; flex-wrap: wrap; gap: 4px 22px; margin: 0; padding: 0; list-style: none; }
 .topnav a {
   display: block;
   padding: 6px 0;
@@ -99,8 +99,11 @@ a { color: var(--accent); text-underline-offset: 3px; }
 .lang button:hover, .lang button:focus-visible { color: var(--fg); outline: none; }
 .lang button[aria-pressed="true"] { background: var(--fg); color: var(--bg); }
 @media (max-width: 520px) {
-  .right { gap: 14px; }
-  .topnav ul { gap: 12px; }
+  .right { display: contents; }
+  .brand { order: 1; }
+  .lang { order: 2; }
+  .topnav { order: 3; width: 100%; }
+  .topnav ul { gap: 4px 16px; }
 }
 
 /* ---------- content ---------- */
@@ -161,6 +164,14 @@ li strong { font-weight: 600; }
   color: var(--muted);
 }
 .soon b { color: var(--accent); font-weight: 500; }
+
+/* ---------- side-project log entries ---------- */
+.entry { padding: 18px 0; border-bottom: 1px solid var(--line); }
+.entry:last-child { border-bottom: 0; }
+.entry .meta { font-family: "IBM Plex Mono", monospace; font-size: 12px; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); margin: 0 0 4px; }
+.entry h3 { margin: 0 0 6px; font-size: 18px; font-weight: 600; }
+.entry p { margin: 0 0 8px; }
+.entry img { max-width: 100%; height: auto; display: block; margin-top: 10px; border: 1px solid var(--line); }
 
 /* ---------- contact ---------- */
 .links a {
