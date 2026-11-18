@@ -83,6 +83,26 @@ a { color: var(--accent); text-underline-offset: 3px; }
   .topnav ul { gap: 16px; }
 }
 
+/* ---------- language switch ---------- */
+.right { display: flex; align-items: center; gap: 22px; }
+.lang { display: inline-flex; border: 1px solid var(--line); }
+.lang button {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 12px;
+  letter-spacing: .08em;
+  color: var(--muted);
+  background: transparent;
+  border: 0;
+  padding: 5px 9px;
+  cursor: pointer;
+}
+.lang button:hover, .lang button:focus-visible { color: var(--fg); outline: none; }
+.lang button[aria-pressed="true"] { background: var(--fg); color: var(--bg); }
+@media (max-width: 520px) {
+  .right { gap: 14px; }
+  .topnav ul { gap: 12px; }
+}
+
 /* ---------- content ---------- */
 main {
   max-width: 760px;

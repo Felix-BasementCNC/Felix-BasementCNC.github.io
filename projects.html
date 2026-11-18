@@ -4,33 +4,39 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Projects – Felix Winkler</title>
-<meta name="description" content="Engineering projects by Felix Winkler.">
+<meta name="description" content="Projects by Felix Winkler.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/style.css?v=3">
+<link rel="stylesheet" href="assets/style.css?v=5">
 </head>
-<body>
+<body data-title="title.projects">
 <header class="site-header">
   <div class="bar">
-    <a class="brand" href="index.html">Felix Winkler<small>A Project Showcase</small></a>
-    <nav class="topnav" aria-label="Main">
-      <ul>
-        <li><a href="projects.html" aria-current="page">Projects</a></li>
-        <li><a href="cv.html">CV</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-    </nav>
+    <a class="brand" href="index.html">Felix Winkler<small data-i18n="brand.sub">A Project Showcase</small></a>
+    <div class="right">
+      <nav class="topnav" aria-label="Main">
+        <ul>
+          <li><a href="projects.html" aria-current="page" data-i18n="nav.projects">Projects</a></li>
+          <li><a href="cv.html" data-i18n="nav.cv">CV</a></li>
+          <li><a href="contact.html" data-i18n="nav.contact">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="lang" role="group" aria-label="Language">
+        <button type="button" data-lang="en">EN</button><button type="button" data-lang="de">DE</button>
+      </div>
+    </div>
   </div>
 </header>
 <main>
   <div class="sheet">
-    <p class="label">Portfolio</p>
-    <h1>Projects</h1>
-    <p class="tagline">Machines, robots and electronics I have designed and built.</p>
+    <p class="label" data-i18n="pr.label">Portfolio</p>
+    <h1 data-i18n="pr.h1">Projects</h1>
+    <p class="tagline" data-i18n="pr.tagline">Machines, robots and electronics I have designed and built.</p>
 
-    <div class="soon"><b>// Projects</b> — detailed project pages coming soon.</div>
+    <div class="soon" data-i18n="pr.soon" data-html><b>// Projects</b> — detailed project pages coming soon.</div>
   </div>
 </main>
-<script src="assets/site.js?v=4"></script>
+<script src="assets/i18n.js?v=5"></script>
+<script src="assets/site.js?v=5"></script>
 </body>
 </html>

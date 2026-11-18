@@ -42,16 +42,16 @@ window.SITE = {
       var status = document.getElementById("form-status");
       form.addEventListener("submit", function (e) {
         e.preventDefault();
-        status.textContent = "Sending…";
+        status.textContent = I18N.t("co.sending");
         fetch(window.SITE.formEndpoint, {
           method: "POST",
           body: new FormData(form),
           headers: { Accept: "application/json" }
         }).then(function (r) {
-          if (r.ok) { form.reset(); status.textContent = "Thanks, your message was sent."; }
-          else { status.textContent = "Something went wrong. Please try again later."; }
+          if (r.ok) { form.reset(); status.textContent = I18N.t("co.ok"); }
+          else { status.textContent = I18N.t("co.err"); }
         }).catch(function () {
-          status.textContent = "Something went wrong. Please try again later.";
+          status.textContent = I18N.t("co.err");
         });
       });
     }
