@@ -7,7 +7,7 @@ window.SITE = {
   links: {
     linkedin: "",   // e.g. "https://www.linkedin.com/in/your-name/"
     instagram: "https://www.instagram.com/felixwin2710/",
-    github: "https://github.com/Felix-Winkler"
+    github: "https://github.com/Felix-BasementCNC"
   },
   // Formspree endpoint, e.g. "https://formspree.io/f/abcdwxyz".
   // Leave empty to hide the form.
